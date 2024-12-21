@@ -1,0 +1,231 @@
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - hey there
+    - let's go
+    - hey dude
+    - good morning
+    - good evening
+    - good afternoon
+
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremely sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
+
+- intent: Schedule_an_appointment
+  examples: |
+    - Can I schedule an appointment?
+    - I'd like to book a meeting.
+    - When is your next available slot for an appointment?
+    - What time do you have available for a meeting?
+
+- intent: cancel_an_appointment
+  examples: |
+    - I need to cancel my appointment.
+    - Can I reschedule my meeting?
+    - I won't be able to make it to my appointment. Can we cancel or reschedule?
+
+- intent: reschedule_appointment
+  examples: |
+    - I want to reschedule my appointment.
+    - Can we find another time for the meeting?
+    - I need to change the date of my appointment. Can you help with that?
+
+- intent: admit_patient
+  examples: |
+    - I need to admit a patient.
+    - Can you assist with patient admission?
+    - How do I go about admitting a patient?
+    - I want to initiate the admission process for a patient.
+
+- intent: discharge_patient
+  examples: |
+    - I need to discharge a patient.
+    - How can I complete the patient discharge process?
+    - What are the steps to discharge a patient?
+
+- intent: transfer_patient
+  examples: |
+    - I want to transfer a patient to another facility.
+    - Can you guide me through the patient transfer process?
+    - What information do you need for transferring a patient?
+
+- intent: prescribe_medication
+  examples: |
+    - I need to prescribe medication for a patient.
+    - Can you help me with medication prescription?
+    - What is the recommended dosage for [medication]?
+
+- intent: administer_medication
+  examples: |
+    - How do I administer [medication] to a patient?
+    - I need guidance on giving medication to a patient.
+    - What are the steps for administering [medication]?
+
+- intent: update_medication_records
+  examples: |
+    - I want to update the medication records for a patient.
+    - Can you assist with updating medication information?
+    - How do I edit the medication history for a patient?
+
+- intent: check_medication_interaction
+  examples: |
+    - Can you check for interactions between [medication1] and [medication2]?
+    - I need to know if there are any interactions with the current medications.
+    - Is it safe to take [medication] with [other_medication]?
+
+- intent: generate_patient_report
+  examples: |
+    - Generate a patient report.
+    - I want to get a report of my medical history.
+    - Can you provide a summary of my health records?
+
+- intent: access_lab_results
+  examples: |
+    - How can I access my lab results?
+    - Where do I find the results of my recent lab tests?
+    - Tell me about accessing lab reports.
+
+- intent: send_reports
+  examples: |
+    - I need to send my medical reports to another doctor.
+    - Can you help me share my health records with another healthcare provider?
+    - What's the process for sending medical reports to a specialist?
+
+- intent: check_hospital_hours
+  examples: |
+    - What are the hospital hours of operation?
+    - Can you tell me when the hospital is open?
+    - What time does the hospital close today?
+    - Are you open on weekends?
+
+- intent: inquire_about_services
+  examples: |
+    - What services does the hospital provide?
+    - Tell me about the medical services available.
+    - Can you list the specialty services offered by the hospital?
+    - What kind of treatments do you offer?
+
+- intent: get_visiting_information
+  examples: |
+    - How can I get information about visiting a patient?
+    - Tell me about the visiting hours and policies.
+    - Is there a visitor's guide available?
+
+- intent: report_an_emergency
+  examples: |
+    - I need to report an emergency.
+    - There's an emergency situation.
+    - Urgent help is needed.
+    - Emergency assistance required.
+
+- intent: request_urgent_medical_assistance
+  examples: |
+    - I need urgent medical assistance.
+    - It's an emergency; I require immediate medical help.
+    - Can you send medical assistance urgently?
+    - Dial emergency services for me.
+
+- intent: inquire_billing_information
+  examples: |
+    - Can you give me information about my billing statement?
+    - I have questions about my charges; can you help?
+    - What details are included in my billing information?
+    - How can I check my outstanding balance?
+
+- intent: make_payment
+  examples: |
+    - I want to make a payment for my medical bills.
+    - Can you guide me through the process of making a payment?
+    - What are the payment methods accepted for medical bills?
+    - Where can I make a payment for my outstanding balance?
+
+- intent: discuss_insurance_coverage
+  examples: |
+    - I need to discuss my insurance coverage with someone.
+    - Can you provide information about my insurance benefits?
+    - What is covered under my insurance plan?
+    - How can I process a claim with my insurance?
+
+- intent: provide_feedback
+  examples: |
+    - I would like to provide feedback on your services.
+    - Is there a way to share my feedback?
+    - How can I leave a review for the hospital?
+    - Tell me about the feedback process.

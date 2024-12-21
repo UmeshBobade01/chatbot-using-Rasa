@@ -1,0 +1,141 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_great
+  - action: utter_happy
+
+- story: sad path 1
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: affirm
+  - action: utter_happy
+
+- story: sad path 2
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: mood_unhappy
+  - action: utter_cheer_up
+  - action: utter_did_that_help
+  - intent: deny
+  - action: utter_goodbye
+
+
+- story: Greet and Schedule Appointment
+  steps:
+  - intent: greet
+  - action: utter_greet
+  - intent: Schedule_an_appointment
+  - action: utter_ask_appointment_details
+
+- story: Cancel and Reschedule Appointment
+  steps:
+  - intent: cancel_an_appointment
+  - action: utter_confirm_cancellation
+  - intent: affirm
+  - action: utter_cancel_appointment
+
+- story: Admit Patient
+  steps:
+  - intent: admit_patient
+  - action: utter_ask_admission_details
+
+- story: Discharge Patient
+  steps:
+  - intent: discharge_patient
+  - action: utter_ask_discharge_details
+
+- story: Transfer Patient
+  steps:
+  - intent: transfer_patient
+  - action: utter_ask_transfer_details
+
+- story: Prescribe Medication
+  steps:
+  - intent: prescribe_medication
+  - action: utter_ask_prescription_details
+
+- story: Administer Medication
+  steps:
+  - intent: administer_medication
+  - action: utter_ask_administration_details
+
+- story: Update Medication Records
+  steps:
+  - intent: update_medication_records
+  - action: utter_ask_update_details
+
+- story: Check Medication Interaction
+  steps:
+  - intent: check_medication_interaction
+  - action: utter_ask_interaction_details
+
+- story: Generate Patient Report
+  steps:
+  - intent: generate_patient_report
+  - action: utter_provide_report_generation_info
+
+- story: Access Lab Results
+  steps:
+  - intent: access_lab_results
+  - action: utter_provide_lab_results_info
+
+- story: Send Medical Reports
+  steps:
+  - intent: send_reports
+  - action: utter_provide_send_reports_info
+
+- story: Check Hospital Hours
+  steps:
+  - intent: check_hospital_hours
+  - action: utter_provide_hospital_hours
+
+- story: Inquire About Services
+  steps:
+  - intent: inquire_about_services
+  - action: utter_provide_services_information
+
+- story: Get Visiting Information
+  steps:
+  - intent: get_visiting_information
+  - action: utter_provide_visiting_information
+
+- story: Report an Emergency
+  steps:
+  - intent: report_an_emergency
+  - action: utter_report_emergency
+
+- story: Request Urgent Medical Assistance
+  steps:
+  - intent: request_urgent_medical_assistance
+  - action: utter_request_urgent_medical_assistance
+
+- story: Inquire Billing Information
+  steps:
+  - intent: inquire_billing_information
+  - action: utter_ask_billing_details
+
+- story: Make Payment
+  steps:
+  - intent: make_payment
+  - action: utter_ask_payment_details
+
+- story: Discuss Insurance Coverage
+  steps:
+  - intent: discuss_insurance_coverage
+  - action: utter_ask_insurance_details
+
+
+- story: Provide Feedback
+  steps:
+  - intent: provide_feedback
+  - action: utter_ask_feedback_details
